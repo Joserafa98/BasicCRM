@@ -31,8 +31,8 @@ export default function CRMBasicTable({ clients = [] }) {
                   <td className="px-6 py-4">
                     <span className={`text-sm px-2 py-1 rounded-full ${
                       client.estado === "Activo"
-                        ? "bg-green-100 text-green-700"
-                        : "bg-red-100 text-red-700"
+                        ? "bg-red-100 text-red-700"
+                        : "bg-green-100 text-green-700"
                     }`}>
                       {client.estado || "Activo"}
                     </span>
